@@ -150,4 +150,4 @@ def test_excel_dashboard_compilation(pipeline_data):
     
     # Verify Executive Summary title cell
     ws_summary = wb["Executive Summary"]
-    assert "SKYDROPX / FRENET" in str(ws_summary["A1"].value)
+    assert "Multi-Carrier Logistics Practice / Logistics Gateway Practice" in str(ws_summary["A1"].value)

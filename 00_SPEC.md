@@ -14,7 +14,7 @@ STACK:            Python 3.11+, DuckDB OLAP, Kimball Star Schema, DAX (Power BI)
 
 ## 1. Contexto de Negocio y Planteamiento del Dolor (The Business Problem)
 
-### 🏢 Contexto Corporativo (Skydropx / Frenet)
+### 🏢 Contexto Corporativo (Multi-Carrier Logistics Practice / Logistics Gateway Practice)
 Las pasarelas logísticas e integradores de envíos masivos para e-commerce conectan a miles de merchants con múltiples transportistas (FedEx, DHL, Estafeta, Correos, 99Minutos, Redpack), gestionando:
 1. **Cotización dinámica de fletes:** Enrutamiento en tiempo real por menor costo, menor tiempo de tránsito o mejor confiabilidad.
 2. **Ciclo de vida del envío:** Generación de guías, recolección, tránsito, intentos de entrega y confirmación final.

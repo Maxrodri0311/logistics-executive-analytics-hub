@@ -8,7 +8,7 @@
 [![Pytest](https://img.shields.io/badge/Pytest-100%25_Passing-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)](https://pytest.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-An end-to-end data analytics platform and automated reporting pipeline designed for e-commerce logistics gateways and shipping aggregators (e.g., Skydropx / Frenet).
+An end-to-end data analytics platform and automated reporting pipeline designed for e-commerce logistics gateways and shipping aggregators (e.g., Multi-Carrier Logistics Practice / Logistics Gateway Practice).
 
 The platform transforms raw shipping quotes and tracking events into an optimized **Kimball Star Schema** using **DuckDB**, computes an **Enterprise DAX Semantic Layer** for Power BI/Tableau, and compiles board-ready **Executive Excel KPI Dashboards** with zero manual overhead.
 

@@ -240,7 +240,7 @@ class LogisticsDataGenerator:
             # Gross revenue charged to merchant = quoted rate * (1 + merchant markup)
             gross_revenue = round(quoted_shipping_fee * (1.0 + merchant_info["margin_markup_pct"]), 2)
             
-            # Carrier cost billed to Frenet/Skydropx:
+            # Carrier cost billed to Logistics Gateway Practice/Multi-Carrier Logistics Practice:
             # If carrier audited the weight or added zone surcharge, cost increases!
             carrier_cost_base = carrier_info["base_rate_per_kg"] * billed_weight + dest_info["remote_surcharge"]
             # Occasional fuel or handling variance (carrier margin leakage)

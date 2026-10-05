@@ -102,7 +102,7 @@ class ExecutiveExcelBuilder:
         # Sheet Banner Header
         ws.merge_cells("A1:I2")
         header = ws["A1"]
-        header.value = "SKYDROPX / FRENET — EXECUTIVE LOGISTICS & CARRIER PERFORMANCE DASHBOARD"
+        header.value = "Multi-Carrier Logistics Practice / Logistics Gateway Practice — EXECUTIVE LOGISTICS & CARRIER PERFORMANCE DASHBOARD"
         header.font = Font(name=FONT_FAMILY, size=14, bold=True, color="FFFFFF")
         header.fill = PatternFill(start_color=COLOR_HEADER_BG, end_color=COLOR_HEADER_BG, fill_type="solid")
         header.alignment = Alignment(horizontal="left", vertical="center", indent=1)
